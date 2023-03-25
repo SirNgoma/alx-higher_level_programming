@@ -1,6 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
-
+#include <stddef.h>
 /*
  * struct listint_t - singly linked list
  * @next: poinys to the nezt node
