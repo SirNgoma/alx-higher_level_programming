@@ -1,13 +1,17 @@
 #!/usr/bin/python3
-"""Class of a squre"""
+"""Class of a squre."""
+
+
 class Square:
-    """Class for a squre"""
+    """Class for a squre."""
+
     def __init__(self, size):
-        """Init the size of the Square
+        """Init the size of the Square.
 
         Args:
-            size (int): size of the square
+            size (int): size of the square.
         """
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -15,5 +19,6 @@ class Square:
         self.size = size
 
     def area(slef):
-        """Return area of the square"""
+        """Return area of the square."""
+
         return (self.size * self.size)
