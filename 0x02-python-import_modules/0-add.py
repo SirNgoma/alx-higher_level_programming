@@ -7,3 +7,6 @@ b = 2
 results = add(a, b)
 
 print("{} + {} = {}".format(a, b, results))
+
+if __name__ = "__main__":
+    add()
