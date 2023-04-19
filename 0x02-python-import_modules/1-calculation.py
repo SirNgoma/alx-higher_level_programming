@@ -13,3 +13,10 @@ print("{} + {} = {}".format(a, b, adds))
 print("{} - {} = {}".format(a, b, substract))
 print("{} * {} = {}".format(a, b, multi))
 print("{} / {} = {}".format(a, b, divide))
+
+if __main__ == '__main__':
+    import sys
+    add(a, b)
+    sub(a, b)
+    mul(a, b)
+    div(a, b)
