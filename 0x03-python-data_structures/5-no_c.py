@@ -4,4 +4,8 @@ def no_c(my_string):
     Args:
         my_string: string for characters to be rem
     """
-
+    new_string = ""
+    for char in my_string:
+        if char != 'c' and char != 'C':
+            new_string += char
+    return new_string
