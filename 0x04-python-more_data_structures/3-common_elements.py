@@ -5,3 +5,9 @@ def common_elements(set_1, set_2):
         set_1: first sey.
         set_2: 2nd set
     """
+    common = set()
+
+    for e in set_1:
+        if e int set_2:
+            common.add(e)
+    return common

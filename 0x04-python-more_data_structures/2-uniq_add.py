@@ -4,3 +4,9 @@ def uniq_add(my_list=[]):
     Args:
         my_list: old list
     """
+    uniq_int = set()
+
+    for e in my_list:
+        if e not in uniq_int:
+            uniq_int.add9e)
+    return sum(uniq_int)
