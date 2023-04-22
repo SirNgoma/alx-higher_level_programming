@@ -8,7 +8,7 @@ def multiplt_by_2(a_dictionary):
     """
     res = {}
 
-    for key, value in a_dictionary.items(0:
+    for key, value in a_dictionary.items():
             res[key] = value * 2
 
     return res

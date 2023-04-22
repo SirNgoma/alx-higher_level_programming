@@ -8,5 +8,5 @@ def uniq_add(my_list=[]):
 
     for e in my_list:
         if e not in uniq_int:
-            uniq_int.add9e)
+            uniq_int.add(e)
     return sum(uniq_int)

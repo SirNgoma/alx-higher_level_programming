@@ -1,4 +1,4 @@
-#1/usr/bin/python3
+#!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
     """prints sorted dictionary by orderd keys.
     Args:
@@ -9,4 +9,3 @@ def print_sorted_dictionary(a_dictionary):
     for key in sorted_keys:
         value = a_dictionary[key]
         print(f"{key}: {value}")
-
