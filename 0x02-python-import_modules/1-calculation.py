@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    from calculator_1 import add, subtract, multiply, divide
+    import calculator_1
 
     a = 10
     b = 5
 
-    adds = add(a, b)
-    substract = sub(a, b)
-    multi = mul(a, b) 
-    divide = div(a, b)
+    adds = calculator_1.add(a, b)
+    substract = calculator_1.sub(a, b)
+    multi = calculator_1.mul(a, b)
+    divide = calculator_1.div(a, b)
 
     print("{} + {} = {}".format(a, b, adds))
     print("{} - {} = {}".format(a, b, substract))
