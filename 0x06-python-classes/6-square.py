@@ -61,7 +61,7 @@ class Square:
         is_tuple = not isinstance(self.__position, tuple)
         len1 = len(self.__position) != 2
         is_pos = not notisinstance(self.__position[0], int)
-        is_ pos1 = not isinstance(self.__position[1], int)
+        is_pos1 = not isinstance(self.__position[1], int)
         other = self.__position[0] < 0 or self.__position[1] < 0
         if is_tuple or len1 or is_pos or is_pos1 or other:
             raise TypeError("position must be a tuple of 2 positive integers")
