@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """defines a square."""
+
+
 class Square:
     """defines a squre."""
     def __init__(self, size=0, position(0, 0)):
@@ -37,7 +39,9 @@ class Square:
     @position.setter
     def position(self, value):
         """set pos value"""
-        if not isinstance(value, tuple) or len(value) != 2 or not all(isinstance(i, int) for i in value) or not all(i >= 0 for i in value):
+        is_tuple = not isinstance(value, tuple) or len(value) != 2
+        is_positive = not all(isinstance(i, int) for i in value) or not all(i >= 0 for i in value)
+        if is_tuple or is positive:
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
