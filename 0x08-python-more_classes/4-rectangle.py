@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""rectangle class"""
+
 
 class Rectangle:
     """rectangle class"""
@@ -7,7 +9,7 @@ class Rectangle:
         Args:
             width (int): with of the rect
             height (int): h of the rect
-            """
+        """
         self.__width = width
         self.__height = height
 
@@ -48,18 +50,18 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
-            return 2 * (self.__width + self._-height)
+            return 2 * (self.__width + self.__height)
 
     def __str__(self):
         """define a string"""
-        if self.width == 0 or self.height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
         else:
             res = ""
-            for i in range(self.height):
-                res += "#" * self.width + "\n"
+            for i in range(self.__height):
+                res += "#" * self.__width + "\n"
             return res[:-1]
 
     def __repr__(self):
         """ """
-        return "Rectangle({}, {})".format(self.width, self.height)
+        return "Rectangle({}, {})".format(self.__width, self.__height)

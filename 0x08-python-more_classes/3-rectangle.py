@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+"""rect class"""
+
 
 class Rectangle:
-    """  """
+    """Rect class  """
     def __init__(self, width=0, height=0):
-        """Init a Rectangle """
+        """Init a Rectangle
+        Args:
+            width: rect widtgh
+            height: rect height.
+        """
         self.__width = width
         self.__height = height
 
@@ -48,11 +54,11 @@ class Rectangle:
 
     def __str__(self):
         """represent string"""
-        if self.width == 0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
         rect = ""
-        for i in range(self.height):
-            rect += "#" * self.width
-            if i != self.height - 1:
+        for i in range(self.__height):
+            rect += "#" * self.__width
+            if i != self.__height - 1:
                 rect += "\n"
         return rect

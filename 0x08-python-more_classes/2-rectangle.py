@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+"""rect class"""
+
 
 class Rectangle:
-    """ """
+    """rect class """
     def __init__(self, width=0, height=0):
-        """  """
+        """Init class
+        Args:
+            width: width of a rec
+            height: height of the rect
+        """
         self.__width = width
         self.__height = height
 
@@ -14,19 +20,17 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """  
-        """
+        """set width size."""
         if not isinstance(value, int):
             raise TypeError("width must be an interger")
         elif value < 0:
             raise ValueError("width must be >= 0")
         else:
-            self__width = value
+            self.__width = value
 
     @property
     def height(self, value):
-        """
-        """
+        """se height of the rect."""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
