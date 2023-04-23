@@ -4,7 +4,7 @@
 
 class Rectangle:
     """Rectangle class"""
-    def __init__(self, width=0,height=0):
+    def __init__(self, width=0, height=0):
         """init the Rect class
         Args:
             widt:; rect width
