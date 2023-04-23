@@ -2,12 +2,14 @@
 """defines a square."""
 class Square:
     """defines a squre."""
-    def __init__(self, size=0):
+    def __init__(self, size=0, position(0, 0)):
         """init the square.
         Args:
             size: size of the sqr
+            position: pos of the #
         """
         self.__size = size
+        self.__position = position
 
     @property
     def size(self):
