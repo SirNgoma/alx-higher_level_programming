@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Class of a squre."""
+
+
 class Square:
     """Class for a squre."""
 

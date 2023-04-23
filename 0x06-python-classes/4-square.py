@@ -1,10 +1,20 @@
 #!/usr/bin/python3
-"""Class of a squre."""
+"""
+Class of a squre.
+
+the class contain the following:
+    - __init__: initilize the class
+    - size: size of the square
+    - size(self, value): set size of the squre
+    - area(self): returns area of th sqr.
+"""
 
 
 class Square:
-    """Class for a square."""
-    def __init__(self, size):
+    """
+    Class for a square.
+    """
+    def __init__(self, size=0):
         """Init the size of the Square.
         Args:
             size (int): size
