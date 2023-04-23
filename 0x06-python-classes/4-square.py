@@ -26,7 +26,7 @@ class Square:
         """Square size"""
         return self.__size
 
-    @value.setter
+    @size.setter
     def size(self, value):
         """size of the Square.
         Args:
