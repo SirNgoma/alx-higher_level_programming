@@ -29,6 +29,11 @@ class Rectangle:
             self.__width = value
 
     @property
+    def height(self):
+        """height of rect"""
+        return self.__height
+
+    @height.setter
     def height(self, value):
         """se height of the rect."""
         if not isinstance(value, int):

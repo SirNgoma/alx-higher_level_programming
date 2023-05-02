@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Rectangle class"""
+""" Rectangle class """
 
 
 class Rectangle:
@@ -7,7 +7,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """init the Rect class
         Args:
-            widt:; rect width
+            width: rect width
             height: rect height
         """
         self.width = width
