@@ -3,15 +3,15 @@
 
 
 class Rectangle:
-    """Rectangle class"""
+    """Rectangle class """
     def __init__(self, width=0, height=0):
         """init the Rect class
         Args:
             width: rect width
             height: rect height
         """
-        self.width = width
-        self.height = height
+        self._width = width
+        self._height = height
 
     @property
     def width(self):
@@ -28,7 +28,7 @@ class Rectangle:
         self._width = value
 
     @property
-    def heigth(self):
+    def height(self):
         """Rect height"""
         return self._height
 
