@@ -4,7 +4,7 @@ const arg = process.argv[2];
 if (!isNaN(arg) && Number.isInteger(parseFloat(arg))) {
   const size = parseInt(arg);
   if (size <= 0) {
-    console.log("Square size must be a positive integer");
+    exit;
   } else {
     for (let i = 0; i < size; i++) {
       let row = "";

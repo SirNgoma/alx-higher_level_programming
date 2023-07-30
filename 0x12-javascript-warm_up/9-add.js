@@ -14,6 +14,6 @@ const integer2 = parseInt(arg2);
 if (!isNaN(integer1) && !isNaN(integer2)) {
   add(integer1, integer2);
 } else {
-  console.log("Invalid input. Please provide two integers as arguments.");
+  console.log("NaN");
 }
 

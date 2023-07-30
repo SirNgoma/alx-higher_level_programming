@@ -1,4 +1,4 @@
-#!/user/bin/node
+#!/usr/bin/node
 const findBiggestInteger = (...args) => {
   if (args.length === 0) {
     return 0;
